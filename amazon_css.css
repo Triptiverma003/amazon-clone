@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/*box2*/
+add-loc1{
+    color:#cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+add-loc2{
+    font-size:0.5rem;
+}
+
+.add-icon{
+    display:flex;
+    margin-right: 15px;
+}
+/*box-3*/
+.nav-search:hover{
+    border: 1.5px solid white;
+}
+.nav-search{
+    border:1.5px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width:620px;
+    height:40px;
+    border-radius: 3px;
+    border:none;
+}
+.search1{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border:none;
+}
+.search{
+    width: 600px;
+    font-size: large;
+    border:none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    background-color: #feb68f;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color:#0f1111;
+}
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight:700;
+}
+/**box5**/
+span{
+    font-size:0.85rem;
+}
+
+.orders{
+    font-weight:700;
+}
+/**box6**/
+
+.cart-logo i{
+font-size:35px;
+}
+
+.cart-logo{
+    font: size 0.85rem;
+    font-weight: 700;
+}
+
+/** panel **/
+.panel{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.886);
+    align-items: center;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.panel-items p{
+    color:white;
+    display:inline;
+    margin:10px;
+}
+.electronics-deal{
+    font-size:0.85rem;
+    font-weight:700;
+}
+/**hero-section**/
+.hero-section{
+    height:350px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero-message{
+    background-color: white;
+    color:black;
+    display: flex;
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+    height: 40px;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom:25px;
+}
+
+.hero-message a{
+    color:#007185;
+    margin-top: 25px;
+}
+/**content-section**/
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border:2px solid black;
+    height:400px;
+    width:23%;
+    display:flex;
+    background-color: white;
+}
+
+.back-img{
+   height: 400px;
+}
